@@ -47,7 +47,9 @@ namespace GitTest1
 
         private void button4_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("고으든");
+            frmGoldenBell fgb = new frmGoldenBell();
+            fgb.MdiParent = this;
+            fgb.Show();
         }
 
         private void button4_Click_1(object sender, EventArgs e)
