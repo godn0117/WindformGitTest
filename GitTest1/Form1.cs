@@ -49,5 +49,11 @@ namespace GitTest1
         {
             MessageBox.Show("고으든");
         }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            BtnGoodee bg = new BtnGoodee();
+            bg.ShowDialog();
+        }
     }
 }
