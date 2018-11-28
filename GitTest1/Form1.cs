@@ -43,5 +43,10 @@ namespace GitTest1
         {
             textBox1.Text = "골든벨";
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("고으든");
+        }
     }
 }
