@@ -77,9 +77,7 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-
             this.checkBox1.Location = new System.Drawing.Point(58, 330);
-
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(86, 16);
             this.checkBox1.TabIndex = 4;
@@ -99,6 +97,7 @@
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
