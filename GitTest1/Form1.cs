@@ -47,15 +47,15 @@ namespace GitTest1
 
         private void button4_Click(object sender, EventArgs e)
         {
-            frmGoldenBell fgb = new frmGoldenBell();
-            fgb.MdiParent = this;
-            fgb.Show();
+            BtnGoodee bg = new BtnGoodee();
+            bg.ShowDialog();
         }
 
         private void button4_Click_1(object sender, EventArgs e)
         {
-            BtnGoodee bg = new BtnGoodee();
-            bg.ShowDialog();
+            frmGoldenBell fgb = new frmGoldenBell();
+            fgb.MdiParent = this;
+            fgb.Show();
         }
     }
 }
