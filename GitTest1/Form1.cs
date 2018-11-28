@@ -47,7 +47,6 @@ namespace GitTest1
         private void button4_Click(object sender, EventArgs e)
         {
             MessageBox.Show("고으든");
-            textBox2.Text = "테스트ㅡ으으으으으으으으";
         }
     }
 }
