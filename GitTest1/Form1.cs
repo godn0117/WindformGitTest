@@ -30,8 +30,13 @@ namespace GitTest1
         private void button3_Click(object sender, EventArgs e)
         {
 
-            this.label1.Text = "Test";
+            this.label1.Text = "Test3";
 
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            this.label1.Text = "체크박스";
         }
     }
 }
